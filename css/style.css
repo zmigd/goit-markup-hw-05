@@ -664,7 +664,7 @@ address {
 .form-label-poliicy input {
   margin-right: 8px;
 }
-.form-label-span {
+.form-label-check {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -677,11 +677,11 @@ address {
   justify-content: center;
   fill: transparent;
 }
-.form-privacy-check:checked + .form-label-span {
+.form-privacy-check:checked + .form-label-check {
   background-color: var(--ocean);
   border: none;
 }
-.form-privacy-check:checked + .form-label-span .checkbox-icon {
+.form-privacy-check:checked + .form-label-check .checkbox-icon {
   fill: var(--cloud);
 }
 .form-modal-btn {
