@@ -472,7 +472,6 @@ address {
 }
 .form-btn-svg {
   margin-left: 16px;
-
 }
 
 .modal-overlay {
@@ -529,22 +528,22 @@ address {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
-.modal-btn-close:hover, .modal-btn-close:focus{
+.modal-btn-close:hover,
+.modal-btn-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff
+  fill: #ffffff;
 }
 
-.modal-btn-close-svg{
+.modal-btn-close-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-case {
   text-align: center;
 }
 .form-title {
-  ffont-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -554,7 +553,7 @@ address {
   max-width: 338px;
   margin-bottom: 16px;
 }
-.modal-form-case{
+.modal-form-case {
   margin-bottom: 8px;
 }
 .label-title {
@@ -567,9 +566,14 @@ address {
   margin-bottom: 4px;
 }
 .form-label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
 }
 .input-container {
   position: relative;
@@ -655,4 +659,3 @@ address {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
-
