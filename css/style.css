@@ -544,7 +544,7 @@ address {
   text-align: center;
 }
 .form-title {
-  font-family: "Roboto", sans-serif;
+  ffont-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -552,7 +552,10 @@ address {
   text-align: center;
   color: #2e2f42;
   max-width: 338px;
-  margin: 0 auto 16px auto;
+  margin-bottom: 16px;
+}
+.modal-form-case{
+  margin-bottom: 8px;
 }
 .label-title {
   font-family: "Roboto", sans-serif;

@@ -454,17 +454,15 @@
     </footer>
     <div class="modal-overlay is-open">
       <div class="modal">
-        <p class="form-title">
-          Leave your contacts and we will call you back
-        </p>
         <button class="modal-btn-close" type="button">
           <svg width="8" height="8" class="icon modal-btn-close-svg">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
-        <div class="form-case">
-          
-          <form action="">
+        <p class="form-title">Leave your contacts and we will call you back</p>
+
+        <form action="">
+          <div class="modal-form-case">
             <label class="form-label">
               <p class="label-title">Name</p>
               <div class="input-container-active input-container">
@@ -475,6 +473,8 @@
                 <input type="text" name="user-name" />
               </div>
             </label>
+          </div>
+          <div class="modal-form-case">
             <label class="form-label">
               <p class="label-title">Phone</p>
               <div class="input-container">
@@ -485,6 +485,8 @@
                 <input type="tel" name="user-tel" />
               </div>
             </label>
+          </div>
+          <div class="modal-form-case">
             <label class="form-label">
               <p class="label-title">Email</p>
               <div class="input-container">
@@ -495,11 +497,15 @@
                 <input type="email" name="user-emaiil" />
               </div>
             </label>
+          </div>
+          <div class="modal-form-case">
             <label class="form-label">
               <p class="label-title">Comment</p>
 
               <textarea name="feedback" placeholder="Text input"></textarea>
             </label>
+          </div>
+          <div class="modal-form-case">
             <label class="form-label-poliicy">
               <input type="checkbox" />
               <p class="form-label-poliicy-text">
@@ -507,9 +513,10 @@
                 <a href="#" class="form-label-poliicy-link">Privacy Policy</a>
               </p>
             </label>
-            <button type="submit" class="form-modal-btn">Send</button>
-          </form>
-        </div>
+          </div>
+
+          <button type="submit" class="form-modal-btn">Send</button>
+        </form>
       </div>
     </div>
   </body>
