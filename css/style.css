@@ -619,7 +619,7 @@ address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   width: 100%;
@@ -643,7 +643,7 @@ address {
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
-.form-label-poliicy-link {
+.form-label-poliicy {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
