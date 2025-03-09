@@ -559,15 +559,6 @@ address {
 .modal-form-comment {
   margin-bottom: 16px;
 }
-.label-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16667;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-bottom: 4px;
-}
 .form-label {
   display: block;
   font-family: "Roboto", sans-serif;
