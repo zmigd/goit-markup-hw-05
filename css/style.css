@@ -665,9 +665,11 @@ address {
 .form-privacy-check:checked + .form-label-poliicy .form-label-check {
   background-color: var(--ocean);
   border: none;
+  
+}
+.form-privacy-check:checked + .form-label-poliicy{
   fill: var(--cloud);
 }
-
 
 .form-modal-btn {
   font-family: "Roboto", sans-serif;
