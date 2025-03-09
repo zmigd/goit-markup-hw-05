@@ -644,12 +644,7 @@ address {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.form-label-poliicy {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  margin: 16px 0 24px;
-}
+
 .form-label-poliicy input {
   margin-right: 8px;
 }
@@ -672,7 +667,7 @@ address {
   border: none;
 }
 
-.form-privacy-check:checked + .checkbox-icon {
+.form-privacy-check:checked + .form-label-poliicy .form-label-check .checkbox-icon {
   fill: var(--cloud);
 }
 .form-modal-btn {
