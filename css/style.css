@@ -638,9 +638,7 @@ address {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  
   letter-spacing: 0.04em;
-  
   line-height: 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -668,11 +666,12 @@ address {
   justify-content: center;
   fill: transparent;
 }
-.form-privacy-check:checked + .form-label-check {
+.form-privacy-check:checked + .form-label-poliicy .form-label-check {
   background-color: var(--ocean);
   border: none;
 }
-.form-privacy-check:checked + .form-label-check .checkbox-icon {
+
+.form-privacy-check:checked + .form-label-poliicy .form-label-check .checkbox-icon {
   fill: var(--cloud);
 }
 .form-modal-btn {
