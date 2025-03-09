@@ -641,9 +641,9 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--light-slate);
+  color: #8e8f99;
 }
-.form-label-poliicy {
+.form-label-poliicy-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
