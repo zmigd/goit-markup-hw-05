@@ -472,6 +472,7 @@ address {
 }
 .form-btn-svg {
   margin-left: 16px;
+
 }
 
 .modal-overlay {
@@ -511,7 +512,7 @@ address {
   overflow-y: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn-close{
+.modal-btn-close {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -525,7 +526,20 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+.modal-btn-close:hover, .modal-btn-close:focus{
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff
+}
+
+.modal-btn-close-svg{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
