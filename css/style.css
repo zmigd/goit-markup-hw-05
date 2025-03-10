@@ -550,7 +550,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  max-width: 338px;
   margin-bottom: 16px;
 }
 .modal-form-case {
@@ -597,8 +596,6 @@ address {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
   fill: var(--navy-blue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -661,6 +658,7 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .form-privacy-check:checked + .form-label-poliicy .form-label-check {
   background-color: var(--ocean);
